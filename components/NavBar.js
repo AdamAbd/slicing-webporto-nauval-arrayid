@@ -1,6 +1,6 @@
 import React from 'react';
 
-import BtnYellow from './BtnYellow';
+import Button from './Button';
 import Logo from './Logo';
 import Nav from './Nav';
 
@@ -14,7 +14,7 @@ export default function NavBar() {
                 <Nav />
             </div>
             <div className="w-3/12 text-right">
-                <BtnYellow variant="outline-yellow">Login</BtnYellow>
+                <Button variant="outline-yellow" pill>Login</Button>
             </div>
         </div>
     );

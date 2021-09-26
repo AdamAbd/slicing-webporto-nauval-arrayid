@@ -4,7 +4,7 @@ import SectionTittle from '../SectionTittle'
 
 export default function ProfileSection() {
     return (
-        <section className="py-28">
+        <section className="py-28" id="profile">
             <div className="container mx-auto px-10">
                 <SectionTittle tittle="Profile" subTittle="Mengenal saya secara singkat."/>
                 <div className="flex item-center mt-14 mx-auto w-9/12">

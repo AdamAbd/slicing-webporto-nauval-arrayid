@@ -4,7 +4,7 @@ import SkillCard from "../SkillCard";
 
 export default function SkillsSection() {
   return (
-    <section className="py-28 bg-abu">
+    <section className="py-28 bg-abu" id="skill">
       <div className="container mx-auto">
         <SectionTittle tittle="Skills" subTittle="Beberapa kemampuan saya." />
         <div className="mt-20 grid grid-flow-row grid-cols-3 grid-rows-3 gap-10">
