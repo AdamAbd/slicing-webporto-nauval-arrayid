@@ -5,9 +5,9 @@ import SectionTittle from '../SectionTittle'
 export default function ProfileSection() {
     return (
         <section className="py-28" id="profile">
-            <div className="container mx-auto px-10">
+            <div className="container mx-auto px-10 2xl:px-0">
                 <SectionTittle tittle="Profile" subTittle="Mengenal saya secara singkat."/>
-                <div className="flex item-center mt-14 mx-auto w-9/12">
+                <div className="flex md:items-start lg:items-center mt-14 mx-auto xl:w-9/12">
                     <div className="w-5/12 p-10">
                         <img src="/profile.png" alt="" className="w-full" />
                     </div>

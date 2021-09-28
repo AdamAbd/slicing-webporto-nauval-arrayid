@@ -5,7 +5,7 @@ import SectionTittle from "../SectionTittle";
 export default function ProjectsSection() {
   return (
     <section className="py-28" id="project">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-10 2xl:px-0">
         <SectionTittle
           tittle="Projects"
           subTittle="Beberapa proyek bikinan saya."
