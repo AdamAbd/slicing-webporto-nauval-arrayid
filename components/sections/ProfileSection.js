@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import SectionTittle from '../SectionTittle'
 
@@ -9,7 +9,7 @@ export default function ProfileSection() {
                 <SectionTittle tittle="Profile" subTittle="Mengenal saya secara singkat."/>
                 <div className="flex md:items-start lg:items-center mt-14 mx-auto xl:w-9/12">
                     <div className="w-5/12 p-10">
-                        <img src="/profile.png" alt="" className="w-full" />
+                        <img loading="lazy" src="/profile.png" alt="" className="w-full" />
                     </div>
                     <div className="w-7/12 px-10">
                         <p className="text-lg leading-relaxed">
